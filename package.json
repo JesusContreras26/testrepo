@@ -1,0 +1,19 @@
+{
+  "name": "testrepo",
+  "version": "1.0.0",
+  "description": "testProject",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusContreras26/testrepo.git"
+  },
+  "author": "Jesus Contreras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JesusContreras26/testrepo/issues"
+  },
+  "homepage": "https://github.com/JesusContreras26/testrepo#readme"
+}
