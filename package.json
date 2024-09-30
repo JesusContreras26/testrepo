@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JesusContreras26/testrepo/issues"
   },
-  "homepage": "https://github.com/JesusContreras26/testrepo#readme"
+  "homepage": "https://github.com/JesusContreras26/testrepo#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
 }
