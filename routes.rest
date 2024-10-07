@@ -1,0 +1,34 @@
+// LOCALHOST
+### Get all users
+GET http://localhost:3000/users
+
+### Get user ById
+GET http://localhost:3000/users/66fb1f1c2a3cce08b1fd5fed
+
+### Create a new User
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{  
+    "firstName" :"Jesus",
+    "lastName": "Contreras",
+    "email" : "jgcc26@gmail.com",
+    "favoriteColor": "black",
+    "birthday": "08-08-1997"
+}
+
+### Update an existing user
+PUT http://localhost:3000/users/66fb1f1c2a3cce08b1fd5fed HTTP/1.1
+content-type: application/json
+
+{
+    "firstName" :"Erick",
+    "lastName": "Moura",
+    "email" : "erickMoura@gmail.com",
+    "favoriteColor": "black",
+    "birthday": "08-08-1997" 
+}
+
+### Delete an existing user
+DELETE http://localhost:3000/users/6703e497b1fd97bb0d85106f
+
